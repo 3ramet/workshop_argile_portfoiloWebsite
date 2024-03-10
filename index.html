@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="works.css">
+    <link rel="stylesheet" href="actv.css">
+    <link rel="stylesheet" href="cert.css">
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <title>Teeramet.me</title>
+</head>
+<body>
+    <!-- <script src="js/home.js"></script> -->
+    <header>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/166/166778.png" class="logo" alt="icon"></a>
+        <a href="#" class="bar" >
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#acti">Activities</a></li>
+            <li><a href="#cert">Certificates</a></li>
+        </ul>
+    </header>
+    <section id="home">
+        <div class="title1">
+            <p>MY NAME IS</p>
+            <div id="text" class="name">TEERAMET<br>PINTUPAISITWONG</div>
+        </div>
+        <div class="trmPicture animateonscroll"><img alt="teeramet" src="image/teerametPic.png"></div>
+        <div class="container" id="imageShow">
+        </div>
+    </section>
+    <div class="betweenSection">
+        <div class="rec1"></div>
+        <div class="rec2"></div>
+    </div>
+    <section id="aboutme">
+        <div class="titleAboutme">ABOUT ME</div>
+        <div class="aboutmetext">
+            <h1>ข้อมูลส่วนตัว</h1>
+            <div id="aboutinfo">
+                <div><img alt="profile" src="image/profilepic.jpg"></div>
+                <div><p>ชื่อ: <mark class="yellow">ธีรเมธ</mark> นามสกุล: <mark class="yellow">พินทุไพศิษฎ์วงศ์</mark>  ชื่อเล่น: <mark class="yellow">ภีม</mark><br>
+                วัน/เดือน/ปีเกิด: <mark class="yellow">12 ตุลาคม 2004</mark>  อายุ: <mark class="yellow">18 ปี</mark><br>
+                งานอดิเรก: <mark class="yellow">พัฒนาเกม</mark>, <mark class="yellow">เล่นเปียโน</mark>, <mark class="yellow">วาดรูป</mark><br>
+                วิชาที่ชอบ: <mark class="yellow">คณิตศาสตร์</mark> และ <mark class="yellow">คอมพิวเตอร์</mark>
+                </p></div>
+            </div>
+            <h1>ประวัติการศึกษา</h1>
+            <div class="educ">
+            <ul id="edu">
+                <li><img alt="kps" src="image/kpsLOGO.png">
+                    <p>ประถมศึกษา</p><p id="school">โรงเรียนอนุบาลกัลยาประสิทธิ์</p>
+                </li>
+                <li><img alt="kps" src="image/kpsLOGO.png">
+                    <p>มัธยมศึกษา ตอนต้น</p><p id="school">โรงเรียนอนุบาลกัลยาประสิทธิ์</p>
+                </li>
+                <li><img alt="pkc" src="image/pkcLOGO.png">
+                    <p>มัธยมศึกษา ตอนปลาย</p><p id="school">โรงเรียนประโคนชัยพิทยาคม</p>
+                </li>
+            </ul>
+            </div> 
+        </div>
+        <div class="mypic1">
+            <img alt="mypic" src="image/mypicture.png" alt="teerametPic" id="mypic1">
+        </div>
+    </section>
+    <div class="betweenSection">
+        <div class="rec1"></div>
+        <div class="rec2"></div>
+    </div>
+
+    <section id="works">
+        <div class="titleAboutme">WORKS</div>
+        <div class="acti-th">ผลงานที่ภาคภูมิใจ</div>
+        <div class="line1"></div>
+        <div class="swiper cardContainer">
+            <div class="slide-content">
+                <div class="swiper-wrapper cardCorner">
+                    <div class="swiper-slide">
+                        <li class="card">
+                            <a href="https://play.google.com/store/apps/details?id=com.playalone.myapp&hl=en&gl=US" class="playstore" target="_blank">
+                                <img src="https://assets.stickpng.com/images/5a902dbf7f96951c82922875.png" alt="playstore">
+                            </a>
+                            <img id="garbage" src="image/gbrun.jpg" alt="" >
+                            <img id="top" src="image/shooting.gif" alt="" >
+                            <a href="https://play.google.com/store/apps/details?id=com.playalone.myapp&hl=en&gl=US" target="_blank"><h3>GARBAGE RUN</h3></a>
+                            <div class="text">
+                                <p id="genre">Genre: mobile game, endless runner</p>
+                                <p id="desc">Description:</p>
+                                <p id="desc2">ผลงานนี้เป็นการพัฒนาเกมมือถือที่มีจุดประสงค์เพื่อรณรงค์การเก็บขยะและแยกขยะอย่างถูกวิธี ในตัวเกมผู้เล่นต้องวิ่งเก็บขยะ และหลบสิ่งกีดขวางตลอดทาง เพื่อนำขยะที่ได้มาแยกขยะอย่างถูกวิธีเพื่อสะสมเป็นเหรียญรางวัลเพื่อใช้ซื้อสินค้าต่าง ๆ ภายในเกม</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="card">
+                            <a href="https://pkcpop.click" class="playbutton" target="_blank">
+                                <img src="https://www.pngall.com/wp-content/uploads/5/Red-Play-Button-PNG.png" alt="play">
+                            </a>
+                            <img id="garbage" src="image/pkcpop.jpg" alt="" >
+                            <img id="top" src="image/pkcpopshowcase.gif" alt="" >
+                            <a href="https://pkcpop.click" target="_blank"><h3>PKC POP</h3></a>                
+                            <div class="text">
+                                <p id="genre">Genre: website, firebase</p>
+                                <p id="desc">Description:</p>
+                                <p id="desc2">เป็นเว็บไซต์ที่ทำล้อกับ PopCat.Click โดยมีจุดประสงค์
+                                    เพื่อใช้ในงานกีฬาสีภายในโรงเรียน
+                                             จากการพัฒนาโปรเจกต์นี้ ทำให้ได้รู้จักวิธีการใช้ 
+                                    Firebase ในการเก็บ Database และใช้สำหรับ Hosting
+                                    ได้ฝึกกระบวนการคิดในการส่งข้อมูลอย่างมีประสิทธิภาพ
+                                    ใช้ทรัพยากรให้น้อยที่สุด เพื่อประหยัดงบประมาณและรองรับ
+                                    กับผู้ที่เข้ามาใช้งานเว็บไซต์เป็นจำนวนมาก</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="card">
+                            <a href="https://www.construct.net/en/free-online-games/new-update-flat-guys-1vs1-18659/play" class="playbutton" target="_blank">
+                                <img src="https://www.pngall.com/wp-content/uploads/5/Red-Play-Button-PNG.png" alt="play">
+                            </a>
+                            <img id="garbage" src="image/Main Game Image 02.png" alt="" >
+                            <img id="top" src="image/flatguyshowcase.gif" alt="" >
+                            <a href="https://www.construct.net/en/free-online-games/new-update-flat-guys-1vs1-18659/play" target="_blank"><h3>FLAT GUYS</h3></a>                <div class="text">
+                                <p id="genre">Genre: game</p>
+                                <p id="desc">Description:</p>
+                                <p id="desc2">พัฒนาเกม Flat Guys: 1vs1 Knockout และเผยแพร่ผ่านทางเว็บไซต์ www.construct.net โดยเป็นเกมแข่งขันระหว่างผู้เล่นสองคนต้องแข่งขันกันเพื่อเอาชนะในแต่ละเกม
+                                    โดยการพัฒนาเกมดังกล่าว ได้รับผล
+                          ตอบรับอย่างดีเยี่ยม โดยมีการเข้าเล่นเกมรวม
+                          กว่า 2.9 แสนคน เป็นเกมอันดับสองที่มีผู้เล่น
+                          เล่นมากที่สุดในหมวดหมู่เกมต่อสู้ของเว็บไซต์</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="card">
+                            <a href="https://www.tobepkc.org" class="playbutton" target="_blank">
+                                <img src="https://www.pngall.com/wp-content/uploads/5/Red-Play-Button-PNG.png" alt="play">
+                            </a>
+                            <img id="garbage" src="image/tobepkc.jpg" alt="" >
+                            <img id="top" src="image/TOBEPKCshowcase.gif" alt="" >
+                            <a href="https://www.tobepkc.org" target="_blank"><h3>TO BE PKC</h3></a>
+                            <div class="text">
+                                <p id="genre">Genre: website</p>
+                                <p id="desc">Description:</p>
+                                <p id="desc2">ออกแบบและพัฒนาเว็บไซต์ของชมรมทูบีนัมเบอร์วัน โรงเรียนประโคนชัยพิทยาคม
+                                    ได้รับมอบหมายให้ออกแบบเว็บไซต์ www.tobepkc.org เพื่อประชาสัมพันธ์ข้อมูลและข่าวสารของชมรม
+                                </p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <li class="card">
+                            <a href="https://www.construct.net/en/free-online-games/treasure-hunt-0-0-1-20002/89169b44-2925-4e0d-930e-cc31573f9ab5?via=pp" class="playbutton" target="_blank">
+                                <img src="https://www.pngall.com/wp-content/uploads/5/Red-Play-Button-PNG.png" alt="play">
+                            </a>
+                            <img id="garbage" src="image/treasurehunt.jpg" alt="" >
+                            <img id="top" src="image/treasurehunt.jpg" alt="" >
+                            <a href="https://www.construct.net/en/free-online-games/treasure-hunt-0-0-1-20002/89169b44-2925-4e0d-930e-cc31573f9ab5?via=pp" target="_blank"><h1>TREASURE HUNT</h1></a>
+                            <div class="text">
+                                <p id="genre">Genre: game, maths</p>
+                                <p id="desc">Description:</p>
+                                <p id="desc2">เกมตรรกศาสตร์วิชาโครงงานคณิตศาสตร์ ต้องใช้ทักษะกระบวนการทางตรรกศาสตร์ในการแก้ไขโจทย์ปัญหาเหล่านี้ให้ได้
+                                </p>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="acti-th">ผลงานด้านวิชาการ</div>
+        <div class="line1"></div>
+        <div class="acti-box">
+            <div class="title">ผลงานระดับชาติ</div>
+            <ol>
+                <li>
+                    <div>
+                        <h1>รางวัล AUDIENCE CHOICE</h1>
+                        <h2>ในงาน Game Talent Showcase 2022 <br> Presented by Bitkub เยาวชนคนสร้างเกม</h2>
+                        <div id="txt">สิ่งที่ได้รับ : ได้แสดงผลงานและนำเสนอ Pitching ต่อคณะกรรมการในวงการอุตสาหกรรมและนักลงทุน ได้รับแรงจูงใจในการสร้างสรรค์ผลงานให้ดียิ่งขึ้น เพื่อนำสังคมผู้พัฒนาเกมไทยไปสู่ความสำเร็จในการแข่งขันบนเวทีระดับโลก</div>
+                    </div>
+                    <img src="image/1.jpg" alt="" class="adc">
+                </li>
+                <li>
+                    <img src="image/kmutnb.png" alt="" class="adc">
+                    <div>
+                        <h1>เข้าร่วมประกวดและจัดแสดงผลงาน Virtual exhibition
+                            ประเภท innovative ideas</h1>
+                        <h2>ในงานประกวดสิ่งประดิษฐ์และนวัตกรรมพระจอมเกล้าพระนครเหนือ ประจำปี 2565 </h2>
+                        <div id="txt">สิ่งที่ได้รับ : ได้ฝึกทักษะในการนำเสนอผลงานผ่านการอัดคลิปวิดีโอนำเสนอ ได้ผ่านเข้ารอบ 16 ทีมสุดท้าย
+                            ในนวัตกรรมประเภท innovative ideas และได้จัดแสดงผลงาน Virtual exhibition </div>
+                    </div>
+                </li>
+            </ol>
+            <div class="title">ผลงานระดับภาค</div>
+            <ol>
+                <li>
+                    <div>
+                        <h1>รางวัลรองชนะเลิศอันดับหนึ่ง <br>เหรียญทอง</h1>
+                        <h2>ในงานการประกวดโครงงานระดับมัธยมศึกษาตอนปลาย สาขาวิทยาการคอมพิวเตอร์</h2>
+                        <div id="txt">จัดโดย วิทยาลัยการคอมพิวเตอร์มหาวิทยาลัยขอนแก่น เนื่องในสัปดาห์วันวิทยาศาสตร์แห่งชาติ 17 - 19 สิงหาคม 2565
+                        <br>สิ่งที่ได้รับ : ได้จัดแสดงผลงานและนำเสนอให้กับกรรมการและผู้เข้าชม ได้ความรู้และมิตรภาพจากโรงเรียนอื่น ๆ ที่เข้าร่วมการแข่งขัน
+                        </div>
+                    </div>
+                    <img src="image/kku.png" alt="" class="adc">
+                </li>
+                <li>
+                    <img src="image/12.jpg" alt="" class="adc">
+                    <div>
+                        <h1>รางวัลเหรียญทอง <br>การนำเสนอโครงงาน สาขาคอมพิวเตอร์</h1>
+                        <h2>ในงานการประชุมวิชาการและนำเสนอผลงาน โรงเรียนในโครงการ<br>ห้องเรียนพิเศษวิทยาศาสตร์ ฯ (SMTE) </h2>
+                        <div id="txt">จัดโดย สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน ระดับภาคตะวันออกเฉียงเหนือตอนล่าง ปีการศึกษา 2565
+                        <br>สิ่งที่ได้รับ : ได้ฝึกทักษะการนำเสนอ และการมีไหวพริบในการตอบคำถามคณะกรรมการ ทักษะในการเขียนรูปเล่มโครงงาน
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+    </section>
+    </section>
+    <div class="betweenSection">
+        <div class="rec2"></div>
+        <div class="rec1"></div>
+    </div>
+
+    <section id="acti">
+        <div class="titleAboutme">ACTIVITIES</div>
+        <div class="acti-th">กิจกรรม</div>
+        <div class="line1"></div>
+        <div class="acti-box">
+            <div class="title"></div>
+            <ol>
+                <li>
+                    <div>
+                        <h1>เข้าร่วม Workshop การออกแบบและควบคุมอุปกรณ์อิเล็กทรอนิกส์และเซ็นเซอร์ด้วยไมโครคอนโทรลเลอร์ขนาดเล็ก</h1>
+                        <h2>ในงาน K-Engineering World Tour and Workshop 2022</h2>
+                        <div id="txt">ณ คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+                            <br>สิ่งที่ได้รับ : ได้เรียนรู้เรื่องบอร์ด Arduino เขียนโปรแกรมและต่อวงจรเพื่อให้บอร์ดทำงาน</div>
+                    </div>
+                    <img src="image/17.jpg" alt="" class="adc">
+                </li>
+                <li>
+                    <img src="image/15.jpg" alt="" class="adc">
+                    <div>
+                        <h1>เข้าร่วม Workshop Robot Welding</h1>
+                        <h2>ในงาน K-Engineering World Tour and Workshop 2022</h2>
+                        <div id="txt">ณ คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+                            <br>สิ่งที่ได้รับ : ได้เรียนรู้วิธีการทำงาน และการใช้งานของหุ่นยนต์ในโรงงานอุตสาหกรรม</div>
+                    </div>
+                </li>
+            </ol>
+            <ol>
+                <li>
+                    <div>
+                        <h1>เข้าร่วมโครงการค่ายส่งเสริมทักษะปฎิบัติการทางวิทยาศาสตร์ (SUT CAMP) </h1>
+                        <h2>ณ มหาวิทยาลัยเทคโนโลยีสุรนารี ประจำปีการศึกษา 2563 - 2565</h2>
+                        <div id="txt"> สิ่งที่ได้รับ :สิ่งที่ได้รับ :  ได้รับความรู้และทักษะการปฎิบัติการ
+                        ทางวิทยาศาสตร์ โดยสามารถนำความรู้ที่ได้มาประยุกต์ใช้กับเนื้อหาในห้องเรียนและชีวิตประจำวัน
+                        </div>
+                    </div>
+                    <img src="image/7.jpg" alt="" class="adc">
+                </li>
+                <li>
+                    <img src="image/kpcodecombat.png" alt="" class="adc">
+                    <div>
+                        <h1>ได้รับเชิญเป็นวิทยากรค่ายวิทยาการคำนวณ</h1>
+                        <h2>ณ โรงเรียนอนุบาลกัลยาประสิทธิ์ วันที่ 29 มีนาคม พ.ศ.2564</h2>
+                        <div id="txt">โดยได้ให้ความรู้แก่น้อง ๆ ชั้นประถมศึกษาและมัธยมศึกษาตอนต้นด้าน Coding ผ่านกิจกรรม Code Combat
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <div class="betweenSection">
+        <div class="rec1"></div>
+        <div class="rec2"></div>
+    </div>
+
+    <section id="cert">
+        <div class="titleAboutme">CERTIFICATES</div>
+        <div class="acti-th">เกียรติบัตร</div>
+        <div class="line1"></div>
+        <div class="grid">
+            <div class="card2">
+                <img src="image/certkku.jpg" alt="">
+                <h1>รางวัลรองชนะเลิศ เหรียญทอง</h1>
+                <p>ในงานการประกวดโครงงานระดับมัธยมศึกษาตอนปลาย สาขาวิทยาการคอมพิวเตอร์</p>
+            </div>
+            <div class="card2">
+                <img src="image/certkmutnb.jpg" alt="">
+                <h1>เข้าร่วมประกวดและจัดแสดงผลงาน Virtual Exhibition 
+                    ประเภท INNOATIVE IDEAS</h1>
+                <p>จากงานประกวดสิ่งประดิษฐ์และนวัตกรรมพระจอมเกล้าพระนครเหนือ ประจำปี 2565</p>
+            </div>
+            <div class="card2">
+                <img src="image/certsmte.jpg" alt="">
+                <h1>รางวัลโครงงานระดับคุณภาพ "เหรียญทอง"</h1>
+                <p>การประชุมวิชาการและนำเสนอผลงาน โรงเรียนในโครงการ ห้องเรียนพิเศษวิทยาศาสตร์ฯ (SMTE) </p>
+            </div>
+            <div class="card2">
+                <img src="image/certtga.png" alt="">
+                <h1>รางวัล Audience's Choice Award</h1>
+                <p>จากโครงการ GameTalent Showcase 2022 Presented by Bitkub</p>
+            </div>
+            <div class="card2">
+                <img src="image/kku_datasci.jpg" alt="">
+                <h1>เข้าร่วมการแข่งขันนักวิทยาศาสตร์ข้อมูลระดับมัธยมปลาย</h1>
+                <p>โครงการสหวิทยาการ ครั้งที่ 16 ณ คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น</p>
+            </div>
+            <div class="card2">
+                <img src="image/certtifd.png" alt="">
+                <h1>เข้าร่วมโครงการแข่งขันออกแบบแนวคิดบริการทางการแพทย์ </h1>
+                <p>Telehealth Innovation for Functional Disabilities (TIFD)</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-bru.jpg" alt="">
+                <h1>รางวัลชนะเลิศ การแข่งขันพัฒนาเกมคอมพิวเตอร์เชิงสร้างสรรค์ ประเภททีม 
+                    ระดับมัธยมศึกษาตอนปลาย</h1>
+                <p>ณ คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏบุรีรัมย์ ประจำปี 2563</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-gamemak.jpg" alt="">
+                <h1>รางวัลชนะเลิศ เหรียญทอง การแข่งขันสร้างเกมสร้างสรรค์จากคอมพิวเตอร์ 
+                    ระดับมัธยมศึกษาตอนปลาย</h1>
+                <p>งานศิลปหัตถกรรมนักเรียน ครั้งที่ 70 ประจําปีการศึกษา 2565 ระดับเขตพื้นที่การศึกษา</p>
+            </div>
+            <div class="card2">
+                <img src="image/certgtc.jpg" alt="">
+                <h1>ผ่านการอบรมเชิงปฎิบัติการออนไลน์ ในหลักสูตร Web Design
+                    and Development</h1>
+                <p>จัดโดยบริษัท Garena Thailand ร่วมกับกระทรวงศึกษาธิการ</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-rsu.jpg" alt="">
+                <h1>ผ่านการอบรมหลักสูตรการพัฒนาเกมเบื้องต้น</h1>
+                <p>ในโครงการ RSU Rookie Game Dev 2022 มหาวิทยาลัยรังสิต</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-data.jpg" alt="">
+                <h1>ผ่านการอบรมพัฒนาศักยภาพด้านเทคโนโลยีและดิจิทัล</h1>
+                <p>ในหัวข้อ Data Science วิทยาศาสตร์แห่งอนาคต ระหว่างวันที่ 27-28 ธันวาคม พ.ศ. 2564</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-gamemak.jpg" alt="">
+                <h1>เข้าร่วมโครงการ TK Dreammakers 2022</h1>
+                <p>ฝึกฝนทักษะการคิดเชิงออกแบบ (Design Thinking)</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-cat.png" alt="">
+                <h1>ผ่านการทดสอบทักษะกระบวนการการคิดเชิงคำนวณและอัลกอริทึม (CAT.)</h1>
+                <!-- <p>ฝึกฝนทักษะการคิดเชิงออกแบบ (Design Thinking)</p> -->
+            </div>
+            <div class="card2">
+                <img src="image/cert-shot.jpg" alt="">
+                <h1>รางวัลชนะเลิศ ประกวดถ่ายภาพ ประเภทกล้องมือถือ</h1>
+                <p>ในหัวข้อ มหัศจรรย์เทียนพรรษา อัตลักษณ์ประโคนชัย</p>
+            </div>
+            <div class="card2">
+                <img src="image/cert-dekd.png" alt="">
+                <h1>ได้รับการยกย่องเป็น เด็กดี ศรีป.พ.</h1>
+                <p>จากโรงเรียนประโคนชัยพิทยาคม ในระดับชั้นมัธยมศึกษาปีที่ 5</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+
+
+</body>
+</html>
