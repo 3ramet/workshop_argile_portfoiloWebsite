@@ -11,7 +11,7 @@ steps:
 - name: Use Node.js 14
 uses: actions/setup-node@v1
 with:
-node-version: '14'
+node-version: 'v8.18.0'
 - name: Install Dependencies
 run: npm install
 - name: Deploy to Firebase
